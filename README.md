@@ -46,6 +46,6 @@ if (stage === 'build-javascript') {
 }
 ```
 
-To lean more about the reasons why this is important you can read Netlify's staff response to a Gatsby issue, [Netlify and cache busting urls](https://github.com/gatsbyjs/gatsby/issues/11961).
+To learn more about the reasons why this is important you can read Netlify's staff response to a Gatsby issue, [Netlify and cache busting urls](https://github.com/gatsbyjs/gatsby/issues/11961).
 
 You can also learn more about how [Netlify handles their caching](https://www.netlify.com/blog/2017/02/23/better-living-through-caching/).
