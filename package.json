@@ -1,17 +1,17 @@
 {
-  "name": "gatsby-plugin-remove-contenthash",
+  "name": "gatsby-plugin-remove-fingerprints",
   "version": "0.0.1",
   "description": "Gatsby plugin to remove the [contenthash] from built JavaScript files",
   "keywords": [
     "gatsby",
     "gatsby-plugin",
     "remove",
-    "contenthash",
+    "fingerprints",
     "netlify"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/narative/gatsby-plugin-remove-contenthash.git"
+    "url": "git+https://github.com/narative/gatsby-plugin-remove-fingerprints.git"
   },
   "author": "Dennis Brotzky <dennis@narative.co> (narative.co)",
   "license": "MIT",
