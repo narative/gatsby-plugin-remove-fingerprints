@@ -46,6 +46,19 @@ if (stage === 'build-javascript') {
 }
 ```
 
+> NOTE: If using this plugin in conjunction with `gatsby-plugin-netlify`, ensure the `mergeCachingHeaders` and `mergeLinkHeaders` flags are set to `false` to enable proper cache management by netlify. e.g.
+  
+  ```js
+  // gatsby-config.js
+  {
+    resolve: `gatsby-plugin-netlify`,
+    options: {
+      mergeLinkHeaders: false,
+      mergeCachingHeaders: false,
+    },
+  },
+  ```
+
 To learn more about the reasons why this is important you can read Netlify's staff response to a Gatsby issue, [Netlify and cache busting urls](https://github.com/gatsbyjs/gatsby/issues/11961).
 
 You can also learn more about how [Netlify handles their caching](https://www.netlify.com/blog/2017/02/23/better-living-through-caching/).
